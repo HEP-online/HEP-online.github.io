@@ -47,5 +47,6 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/hep-online/
       name: HEP on LinkedIn
+      
+mkdocs gh-deploy --force
 
-  
