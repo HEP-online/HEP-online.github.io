@@ -1,0 +1,34 @@
+# Användarsupport
+
+Verktyget tillhandahåller support för användaren för att underlätta användandet av verktyget. Användersuport hittas menyn under boksymbolen:
+<figure markdown>
+![Pathway to reach user support](pics/path.png)
+</figure>
+
+<!---
+Skall det kanske vara en beskrivande text här? kanske beskriva vart man hittar menyn
+--->
+## Videoguide
+
+**HEP** tillhandahåller videoguider för att visa hur man genomför en rad av olika uppgifter. Användaren kan söka efter kategori eller beskrivning. För att söka skriver användaren in den sökta kategorin eller beskrivningen i textfältet och trycker på "Sök"-knappen.
+
+![Videos](pics/videos.png){width=800}
+
+## Kontakta oss
+
+Om användaren önskar ytterligare hjälp utöver videoguides kan ett ärende öppnas för att kontakta **HEP**. Ett ärende öppnas genom att fylla i formuläret under "Kontakta Oss".
+Ett meddelande och ett e-postmeddelande informerar användaren om att ärendet har skapats.
+<!--- Skall något mer skrivas här för att utöka förklaringen av kategori och vad man skall beskriva? --->
+
+![Contact](pics/contact.png)
+
+
+
+## Ordlista med ordförklarningar
+
+I verktyget kommer många termer att nämnas. En ordlista finns att hämta under "Ordförklarningar"
+
+![Glossary](pics/ordlista.png)
+
+
+------------------
