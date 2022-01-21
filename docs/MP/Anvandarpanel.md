@@ -59,7 +59,7 @@ Genom att klicka på de tre prickarna vid en kunskap kan användaren redigera si
 
 Genom att trycka på "Lägg till" brevid titeln "Kunskap" kan användaren lägga till en ny kunskap.
 
-![Add knowledge](pictures/panel/lägg_till_kunskap.png)
+![Add knowledge](pictures/panel/lagg_till_kunskap.png)
 
 En kunskap kan väljas från en lista av kunskaper eller skrivas in textrutan under "Välj kunskap".
 
@@ -117,7 +117,7 @@ För varje aktivitet gråmarkeras aktiviteten om startdatum eller slutdatum inte
 
 Genom att trycka på "Lägg till" brevid titeln "Kompetensutvecklingsaktiviteter" kan användaren lägga till en ny kompetensutvecklingsaktivitet.
 <figure markdown>
-![Add competence development](pictures/panel/lägg_till_utv.png){width=500}
+![Add competence development](pictures/panel/lagg_till_utv.png){width=500}
 </figure>
 
 För att lägga till kompetensutvecklingsaktivitet behövs :

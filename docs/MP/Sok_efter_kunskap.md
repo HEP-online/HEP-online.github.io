@@ -1,6 +1,6 @@
 # Sök efter kunskap
 <figure markdown>
-![alt text](pictures/resa/path.png){width=300}
+![alt text](pictures/sok/path.png){width=300}
 
 </figure>
 
@@ -19,7 +19,7 @@ MP kan ställa in följande filterparametrar:
 
 Genom att klicka på Sök visas listan över MPs:
 
-![alt text](pictures/sök/page.png)
+![alt text](pictures/sok/page.png)
 
 För varje MPs visas följande:
 
@@ -30,6 +30,4 @@ För varje MPs visas följande:
 - Skriv (används för närvarande inte och vill lära dig)
 - Intresserad av kunskapen
 
-
-
--------
+---------

@@ -11,7 +11,7 @@ I MPP / DCP-fit gap kan MP se: Fit-gap  av alla kärnkunskaper som krävs på DC
 
 Ledare (om etiketten är röd får inte Ledare se MP-kompetensförmågor, om etiketten är grön  får ledare se MP-kompetensförmåga). För att aktivera eller inaktivera Ledaren för att se MP-kompetensförmåga måste användare klicka på Ledar-namnet.
 
-DCP Kärn kunskaper, DCP värde höjande kunskap konkurrerar förmågor (diagram och lista). Här kan MP se kompetensförmågan mellan DCP och MP.
+DCP Kärnkunskaper, DCP värde höjande kunskap konkurrerar förmågor (diagram och lista). Här kan MP se kompetensförmågan mellan DCP och MP.
 
 --------------------------------------
 

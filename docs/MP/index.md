@@ -4,13 +4,13 @@ Välkommen till användarmanualen för en MP användare
 Funktioner för MP:
 
 - [Logga in](Logga_in.md)
-- [Ändra lösenord](Ändra_lösenord.md)
-- [Användarinformtion](Användarinformation.md)
-- [Användarpanel](Användarpanel.md)
-- [Frågeformulär](Frågeformulär.md)
+- [Ändra lösenord](Andra_losenord.md)
+- [Användarinformtion](Anvandarinformation.md)
+- [Användarpanel](Anvandarpanel.md)
+- [Frågeformulär](Frageformular.md)
 - [Min kompetensresa](Min_kompetensresa.md)
 - [Skanna DCPer](Skanna_DCPer.md)
-- [Sök efter kunskap](Sök_efter_kunskap.md)
+- [Sök efter kunskap](Sok_efter_kunskap.md)
 - [Fit Gap](Fit-gap.md)
 
 Tillfälligt otillgängliga funktioner:
