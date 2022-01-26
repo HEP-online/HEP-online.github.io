@@ -1,19 +1,21 @@
 # Ledarpanel
 
-När man loggar in som ledare för en nod eller DCP omdirigeras man till en ledarpanel. I ledarpanelen hittar man huvuddata som:
+När man loggar in som ledare för en nod eller DCP omdirigeras man till en ledarpanel. I ledarpanelen hittar man följande:
 
 - Mina noder (endast om användaren är en ledare i minst en nod)
 - DCP skickat
-- DCP-sammanfattning
+- Överblick av DCPer
 - MPP sparad
 
 ![Leader panel](pics/panel.png)
 
 ## Mina noder
 
-Användaren kan under "Mina Noder" se alla noder för vilket användaren har utsetts till ledare.
+En nod är en organisatorisk enhet, t.ex. avdelning, sektion, projekt, arbetsgrupp. Noder länkas i en struktur där en nod kan ha en eller flera undernoder, t.ex. en hierarkisk organisation. En nod kan vara permanent eller tidssatt, det vill säga, ha ett slutdatum.
 
-Varje nod har en status. En nodstatus kan vara utkast, aktiv eller stängd.
+Användaren kan under "Mina Noder" se alla noder för vilket användaren är ledare för.
+
+Varje nod har en status. Nodens status kan vara utkast, aktiv eller stängd.
 
 När användaren vill stänga en nod är det nödvändigt att alla undernoder kopplat till noden stängs och alla MP:s kopplas ifrån noden.
 
@@ -23,50 +25,50 @@ För mer information om hur man redigerar en nod: [Klicka här](edit_node.md){ .
 
 För att öppna och få mer utförlig information om en nod så kan man trycka på "Öppna" istället för redigera. För mer information om noder: [Klicka här](node.md){ .md-button .md-button--primary}
 
-### ***Visa organisationsstruktur***
+### Visa nodstruktur
 
-Med den här funktionen kan användaren se den grafiska nodstrukturen från vald nod. Följande exempel visar konsultföretaget: HighValue med olika team och för Team Digital och Team Finance också deras kundteam. Den valda noden har en röd kant.
+Med den här funktionen kan användaren se den grafiska nodstrukturen från vald nod. Följande exempel visar konsultföretaget HighValue med olika team och för Team Digital och Team Finance också deras kundteam. Den valda noden har en röd kant.
 
 ![Leader panel](pics/strukt.png)
 
-### ***Skapa nya noder***
+### Skapa nya noder
 <!---Skall detta kanske ligga under redigera nod? eller egen--->
-Genom att klicka på knappen "Lägg till" öppnas ett popup-fönster och ledaren kan skriva in all information som behövs för att definiera nästa nod, så som:
+Genom att klicka på knappen "Lägg till" öppnas ett popup-fönster och ledaren kan skriva in all information som behövs för att definiera nästa nod, såsom:
 
-- Beskrivning av nod
-- Föräldranod
+- Beskrivning av noden
+- Modernod
 
-Genom att klicka på knappen "Spara" skapas den nya noden och användaren omdirigeras till nodformuläret som innehåller nodens:
+Genom att klicka på knappen "Spara" skapas den nya noden och användaren omdirigeras till en ny sida som innehåller nodens:
 
-- Noddata
+- Nodinformation
     - Namn
-    - Status (utkast, aktiv och stängd) 
+    - Status (utkast, aktiv eller stängd)
     - Tid
-    - Slutdatum (inaktiverat om tiden är permanent)
-    - Föräldranod
+    - Slutdatum (inte synlig om tiden är permanent)
+    - Modernod
     - Ledare
-- Kulturdata
-- Kompetensegenskaper
+- Kompetensegenskaper för nodens kulturprofil
+- Kompetensegenskaper för nodens generella kontext
 
-Kultur och egenskaper ärvs av föräldranoden.
+Kultur och generell kontext ärvs av modernod.
 
 ## DCP skickad
 
-I det här avsnittet listas de DCP:er som skickas ut av en ledare/distributör.
-Data är tillgängliga i den här listan tills en ny MP är ansluten till DCP.
-I rutnätet finns följande data:
+I denna panel listas de DCP:er som skickas ut av en ledare/distributör.
+Data är tillgängliga i den här listan tills en ny MP är ansluten till DCPn.
+I listan finns följande data:
 
-- DCP-namn
-- MP-namn och efternamn
-- DCP-skickat datum
-- Status kan accepteras (v), avvisas (x) eller tömmas. På musen över statusdatum visas.
+- Namn på DCP
+- Namn på kopplad MP
+- Datum när DCPn är skickad
+- Status
 
-I rutnätet grupperas MP efter DPC
+<!---Vad för status?--->
 
-## Mina DCPs
+## Mina DCPer
 
-I avsnittet "Mina DCPs" finns ett cirkeldiagram som sammanfattar statusen där användaren är ledare eller distributör.
-Genom att klicka på knappen "Mina DCPs" kan användaren se listan över alla sina DCPs.
+I panelen "Mina DCPer" finns ett cirkeldiagram som sammanfattar statusen där användaren är ledare eller distributör.
+Genom att klicka på knappen "Mina DCPer" kan användaren se listan över alla sina DCPer.
 
 För mer information om DCP-status: [DCP-status](DCP-status.md){ .md-button .md-button--primary}
 

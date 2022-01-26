@@ -5,9 +5,9 @@ Funktioner för MP:
 
 - [Logga in](Logga_in.md)
 - [Ändra lösenord](Andra_losenord.md)
-- [Användarinformtion](Anvandarinformation.md)
+- [Användarinformation](Anvandarinformation.md)
 - [Användarpanel](Anvandarpanel.md)
-- [Frågeformulär](Frageformular.md)
+- [Förmågeprofil](Frageformular.md)
 - [Min kompetensresa](Min_kompetensresa.md)
 - [Skanna DCPer](Skanna_DCPer.md)
 - [Sök efter kunskap](Sok_efter_kunskap.md)

@@ -1,6 +1,9 @@
 # Användarsupport
 
-Verktyget tillhandahåller support för användaren för att underlätta användandet av verktyget. Användersuport hittas menyn under boksymbolen:
+HEP erbjuder olika typer av support för användaren. Användarsupport hittas i menyn under boksymbolen:
+
+<!---Byta bild--->
+
 <figure markdown>
 ![Pathway to reach user support](pics/path.png)
 </figure>
@@ -8,6 +11,7 @@ Verktyget tillhandahåller support för användaren för att underlätta använd
 <!---
 Skall det kanske vara en beskrivande text här? kanske beskriva vart man hittar menyn
 --->
+
 ## Videoguide
 
 **HEP** tillhandahåller videoguider för att visa hur man genomför en rad av olika uppgifter. Användaren kan söka efter kategori eller beskrivning. För att söka skriver användaren in den sökta kategorin eller beskrivningen i textfältet och trycker på "Sök"-knappen.
@@ -23,12 +27,10 @@ Ett meddelande och ett e-postmeddelande informerar användaren om att ärendet h
 ![Contact](pics/contact.png)
 
 
+## Ordlista med ordförklaringar
 
-## Ordlista med ordförklarningar
-
-I verktyget kommer många termer att nämnas. En ordlista finns att hämta under "Ordförklarningar"
+I verktyget kommer många termer att nämnas. En ordlista finns att hämta under "Ordförklaringar"
 
 ![Glossary](pics/ordlista.png)
-
 
 ------------------

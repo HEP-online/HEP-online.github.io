@@ -1,26 +1,29 @@
 # Användarinformation
 
-Användare kan komma åt sina egna uppgifter från menyn i applikationens övre högra hörn genom att trycka på pilen. 
+Användare kan komma åt sina egna uppgifter från menyn.
 
 <figure markdown>
   ![User Dropdown menu](pictures/dropdown_menu.png){width=400}
 </figure>
 
+<!---Fixa ny bild--->
 
 ## Allmän användarinformation
 
-Här kan användare hantera sin användarinformation : 
+Här kan användare hantera sin användarinformation :
 
 - Roll <!--- Tog bort text om skrivskydd : enligt företagskonfigurationen ett av dessa alternativ är närvarande i form: Skrivskyddad, är uppdatering av ERP-gränssnitt som väljs i en rullgardinsmeny, alternativen som finns i rullgardinsmenyn hanteras av administratören i en textruta --->
 - Beskrivning
-- Tillgänglighet 
-- Från 0 till 100 (tillgänglighet i procent)
-- Enhetsavdelning 
-- Kostnadscenter 
-- Kompetensguide 
+- Tillgänglighet från 0 till 100 (tillgänglighet i procent)
+- Enhet
+- Avdelning
+- Kostnadsställe
+- Kompetensguide
+- Byta språk
 
 <!--Person som kan väljas i en lista definierad av administratörsanvändare, skrivskyddat språk, här kan MP välja språk för innehållet i applikationen är detta en kompetensguide? -->
 
+<!---Lägg bild brevid text--->
 <figure markdown>
 ![General userinfo](pictures/general_userinfo.png){width=400}
 </figure>
@@ -31,19 +34,23 @@ Användaren kan ladda upp sin egen bild. Bilden kommer att visas i användarpane
 
 ![User picture](pictures/picture_user.png)
 
-## Gör dina kompetenser synliga
+## Gör dina förmågor synliga
 
-Med "Gör dina kompetenser synliga" kan användaren sina kompetenser synliga för andra MPs, ledare och distributörer.   
+Med "Gör dina förmågor synliga" kan användaren sina förmågor synliga för andra MPs, ledare och distributörer.
 
-Användaren kan välja användare i rullgardinsmenyn och klicka på "Lägg till"-knappen. I rutnätet visas följande:
+Användaren kan välja användare i rullgardinsmenyn och klicka på "Lägg
 
-- Namn 
-- Roll 
-- Status, är närvarande om personen avbryts 
-- Rullgardinsmeny. 
-    - Ta bort, om personen är aktiv.  
-    - Återaktivera, om personen avbryts
-<!--Är det denna strukturen? Har svårt att förstå texten-->
+I tabellen visas följande:
+
+- Namn
+- Roll
+- Status
+- Rullgardinsmeny.
+    - Ta bort person från listan
+  
+<!--Är det denna strukturen? Har svårt att förstå texten
+Ta reda på vad status betyder
+Vad ska vi göra med visa borttagna-->
 ![User abilities](pictures/abilities_userinfo.png)
 
 --------

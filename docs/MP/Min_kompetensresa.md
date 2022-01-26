@@ -3,15 +3,17 @@
 <figure markdown>
 ![alt text](pictures/resa/path.png){width=300}
 </figure>
-I detta avsnittet kan MP se historisk data för:
+
+<!---Saknas bild--->
+
+I denna panel kan MP se historisk data i forma av flera diagram som visar förändring över tid för:
 
 - Kompetensförmågor
 - Kunskaper
 - Kompetensutvecklingsaktiviteter
 
-MP kan välja ett intervall och i listan kompetensförmågor/kunskaper och aktiviteter visas data för det valda intervallet.
+MP kan välja ett tidsintervall och/eller vilka kompetensförmågor/kunskaper som ska visas i diagrammen.
 
 <!--Är denna texten klar här?-->
-
 
 ---------------------

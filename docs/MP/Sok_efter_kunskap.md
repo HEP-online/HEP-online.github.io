@@ -4,30 +4,30 @@
 
 </figure>
 
-I det här avsnittet kan en användare söka efter MPs med en specifik kunskap.
-MP kan ställa in följande filterparametrar:
+I denna panel kan en användare söka efter MPs med en specifik kunskap.
+Användaren kan ställa in följande filterparametrar:
 
 - Kunskap (obligatoriskt)
 - Taggar
-- Noder (här visas alla noder i DCP:erna som MP är ansluten till)
-- MP-tillgänglighet
+- Noder (här visas alla noder MP tillhör)
+- Tillgängligheten för de MP man söker bland
 - Kunskapsnivå
-- Kunskapsintresse
-- Kunskap MP vill lära sig
+- De MP som har den sökta kunskap som speciellt intresseområde
+- De MP som vill lära sig den sökta kunskapen
 
 ---------
 
-Genom att klicka på Sök visas listan över MPs:
+Genom att klicka på "Sök" visas listan över MPs:
 
 ![alt text](pictures/sok/page.png)
 
-För varje MPs visas följande:
+För varje MP i listan visas:
 
 - Bild
 - Namn
 - Roll
 - Kunskapsnivå
-- Skriv (används för närvarande inte och vill lära dig)
-- Intresserad av kunskapen
+- Användningskategori (använder just nu, använder inte just nu eller vill lära mig)
+- Speciellt intresseområde
 
 ---------

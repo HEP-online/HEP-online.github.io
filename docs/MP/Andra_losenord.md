@@ -1,7 +1,7 @@
 # Ändra lösenord
 
 1. 
-För att byta lösenord, navigera till och tryck på "Ändra lösenord"
+För att ändra lösenord, navigera till och tryck på "Ändra lösenord"
 <figure markdown>
 ![user dropdown menu](pictures/dropdown_menu.png)
 </figure>

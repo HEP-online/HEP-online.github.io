@@ -2,13 +2,16 @@
 
 Med den här funktionen kan användaren definiera vilken person som kan väljas av MP som kompetensguide.
 
-Användaren kan välja en Person i person rullgardinsmeny och genom att klicka på Lägg till definierar du att MP kan väljas som kompetensguide. Personen är nu synlig i rutnätet.
-I rutnätet visas följande data:
+HR kan i rullgardinsmeny lägga till och ta bort användare som kan vara kompetensguider. Genom att välja en person i listan och klicka på "Lägg till" kan HR göra det möjligt för en användare att vara kompetensguide. De användare som kan vara kompetensguide visas i en tabell. En kompetensguiden kan tas bort genom att välja "Ta bort" i rullgardinsmenyn för den valda kompetensguiden.
+
+HR kan välja att visa borttagna kompetensguider genom att trycka på "Visa borttagna".
+
+I tabellen visas:
 
 - Namn
 - Roll
-- Status, finns om Personen avbryts  
-    - rullgardinsmeny Ta bort, presentera endast om kunskapen är aktiv
-    - Återaktivera, presentera endast om kunskapen avbryts
+- Status (borttagen eller aktuell)
+
+I rullgardinsmenyn kan HR välja att ta bort och återaktivera en borttagen kompetensguide.
 
 ---------------

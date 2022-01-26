@@ -2,16 +2,17 @@
 
 ![alt text](pics/show.png)
 
-Till vänster om formuläret visas den valda noden och alla dess undernoder.
-Till höger finns listan över DCP som är ansluten till noden. För varje DPC visas:
+Till vänster om tabellen visas den valda noden och alla dess undernoder.
+Till höger finns listan över DCPer som är anslutna till noden. För varje DCP visas:
 
-- DCP-namn
-- Arbetsbefattning
+- Namnet på DCPn
+- Arbetets omfattning i procent
 - Startdatum
 - Status
-- Ansluten MP
-- Fit-gap med tanke på alla kärnkunskaper som krävs på DCP
-- Fit-gap med tanke på endast de kunskaper som finns på MP-profilen bland kärnkunskapen från DCP
-- DCP/MPP-fit-gap
+- Kopplad MP
+- Fit-gap avseende alla kärnkunskaper som krävs för DCP
+- Fit-gap avseende endast de kunskaper som MP har angett i sin profil
+
+Om användaren klickar på de tre prickarna vid DCPn så kan användaren välja att öppna en komplett fit-gap analys
 
 -------------------------------------------
