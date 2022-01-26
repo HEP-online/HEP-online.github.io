@@ -207,7 +207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Mina_kompetensresena%CC%88rer/" class="md-nav__link">
+      <a href="../../Mina_kompetensresenarer/" class="md-nav__link">
         Mina kompetensresenärer
       </a>
     </li>
@@ -480,6 +480,8 @@
         
           
         
+          
+        
       
       
         
@@ -702,7 +704,7 @@
   
     <li class="md-nav__item">
       <a href="../Frageformular/" class="md-nav__link">
-        Frågeformulär
+        Förmågeprofil
       </a>
     </li>
   
@@ -779,6 +781,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lagga_till_kvalifikationer/" class="md-nav__link">
+        Lägg till och redigera kvalifikationer
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -827,7 +843,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Statistik/Aggregerad_vy_fo%CC%88r_kunskap/" class="md-nav__link">
+      <a href="../../Statistik/Aggregerad_vy_for_kunskap/" class="md-nav__link">
         Aggregerad vy för kunskap
       </a>
     </li>
@@ -841,7 +857,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Statistik/Aggregerade_vy_fo%CC%88r_fo%CC%88rma%CC%8Agor/" class="md-nav__link">
+      <a href="../../Statistik/Aggregerade_vy_for_f%C3%B6rmagor/" class="md-nav__link">
         Aggregerade vy för förmågor
       </a>
     </li>
@@ -855,7 +871,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Statistik/Kunskapskartla%CC%88ggning/" class="md-nav__link">
+      <a href="../../Statistik/Kunskapskartlaggning/" class="md-nav__link">
         Kundskapskartläggning
       </a>
     </li>
@@ -1012,8 +1028,8 @@
                 
 
 <h1 id="anvandarpanel">Användarpanel</h1>
-<p>När en användare som inte är ledare för en nod eller DCP loggar in omdirigeras användaren till sin "Användarpanel".</p>
-<p>Användarpanelen kan också hittas i i den vänstra menyraden.</p>
+<p>När en användare som inte är ledare för en nod eller DCP loggar in kommer den till sin användarpanel.</p>
+<p>Användarpanelen kan också hittas i menyraden.</p>
 <figure>
 <p><img alt="drop-down user" src="../pictures/dropdown_user.png" width="200" /></p>
 </figure>
@@ -1031,6 +1047,7 @@
 <li>Skriv ut</li>
 </ul>
 <p><img alt="user interface" src="../pictures/userpanel.png" width="650" /></p>
+<!---Bild över hela användarpanelen om de går--->
 <hr />
 <h2 id="anvandardata">Användardata</h2>
 <p>Data som finns i detta avsnitt är:</p>
@@ -1039,7 +1056,7 @@
 <li>Bild</li>
 <li>Roll</li>
 <li>Enhet</li>
-<li>Kostnadsplats</li>
+<li>Kostnadsställ</li>
 <li>MP-beskrivning</li>
 <li>Tillgänglighet</li>
 <li>Kompetensguide</li>
@@ -1047,7 +1064,7 @@
 <p><img alt="user data" src="../pictures/panel/user.png" /></p>
 <hr />
 <h2 id="kunskaper">Kunskaper</h2>
-<p>I den här sektionen finns det tre olika indelningar för kunskaper:</p>
+<p>I den här sektionen finns det tre olika kategorier av kunskaper:</p>
 <ul>
 <li>Använder just nu</li>
 <li>Använder inte just nu</li>
@@ -1060,41 +1077,44 @@
 <p>Genom att trycka på "Lägg till" brevid titeln "Kunskap" kan användaren lägga till en ny kunskap.</p>
 <p><img alt="Add knowledge" src="../pictures/panel/lagg_till_kunskap.png" /></p>
 <p>En kunskap kan väljas från en lista av kunskaper eller skrivas in textrutan under "Välj kunskap".</p>
-<p>Skrivs en kunskap in kan den valideras av HR. Dessa kunskaper har i listan en färg och en stil som förklarar dess status:
-Fetstilt: För kunskaper redan valda av MP
-Röd: För kunskaper som ska bli validerade av HR Administratör
-Fetstilt röd: För kunskaper som redan valts av en MPs kunskaper och som skall bli validerade av HR Administratör.</p>
-<p>När du väl har valt kunskapen är det nödvändigt att definiera i vilken kategori kunskapen ska infogas i:</p>
+<p>Skrivs en kunskap in som inte finns i listan kommer den att valideras av HR. Dessa kunskaper har i listan en färg och en stil som förklarar dess status:</p>
+<ul>
+<li>Fet stil: För kunskaper som redan är i MPs lista</li>
+<li>Röd: För kunskaper som ska bli validerade av HR</li>
+<li>Fet stil röd: För kunskaper som redan är i MPs lista och som skall bli validerade av HR</li>
+</ul>
+<p>När du väl har valt kunskapen är det nödvändigt att definiera i vilken kategori av användning kunskapen ska infogas i:</p>
 <ul>
 <li>Använder just nu</li>
 <li>Använder inte just nu</li>
 <li>Vill lära mig</li>
 </ul>
-<p>Klicka på Självskattning för att infoga kunskapsnivån</p>
+<p>Klicka på "självskattning" för att ange kunskapsnivån</p>
 <hr />
 <h3 id="kalibrering"><strong>Kalibrering</strong></h3>
-<p>Kalibrering gör det möjligt för användaren att kontrollera noggrannheten en självskattning.</p>
-<ol>
-<li>Fylla i</li>
-<li>Självskattning</li>
-<li>Ev. kalibrering</li>
-</ol>
+<p>Kalibrering gör det möjligt för användaren att verifiera noggrannheten av sin självskattning. </p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Självskattningen ändras inte automatiskt efter kalibrering, utan värdet från självskattningen står kvar.</p>
+</div>
 <!---Bilder?--->
-<p>Skillnaden mellan kunskapsnivåer för kalibrering och självskattningen markeras med hjälp av en färgad stapel till höger om självskattningen.</p>
-<p>Följ dessa regler för färg för denna stapel:
-Blå: Kalibrering har ännu inte utförts.
-Grön: Ingen signifikant skillnad mellan självskattning och systemkalibrering.
-Gul: Något signifikant skillnad mellan självskattning och systemkalibrering.
-Röd: Signifikant skillnad mellan självskattning och systemkalibrering</p>
+<p>Skillnaden mellan kalibrering och självskattningen visas genom en färgad sträck brevid självskattningen.</p>
+<p>Följande gäller:</p>
+<ul>
+<li>Blå: Ingen kalibrering utförd.</li>
+<li>Grön: Kalibrering överensstämmer med självskattning.</li>
+<li>Gul: Mindre avvikelse mellan självskattning och kalibrering.</li>
+<li>Röd: Stor avvikelse mellan självskattning och kalibrering.</li>
+</ul>
 <h2 id="kompetensutvecklingsaktiviteter">Kompetensutvecklingsaktiviteter</h2>
 <p>I denna sektion kan användaren se:</p>
 <ul>
-<li>Pågående / planerade aktiviteter - Aktiviteter för vilka start- och slutdatum inte passeras eller bekräftas</li>
-<li>Färdigställda aktiviteter(Klart) - Aktiviteter för vilka start- och slutdatum passeras och bekräftas</li>
+<li>Pågående/planerade aktiviteter - Aktiviteter för vilka start- och slutdatum inte passerats eller bekräftats</li>
+<li>Genomförda aktiviteter (Klart) - Aktiviteter för vilka start- och slutdatum passerats och bekräftats</li>
 </ul>
 <p><img alt="competence development" src="../pictures/panel/kompetensutveckling.png" /></p>
 <p>För varje aktivitet gråmarkeras aktiviteten om startdatum eller slutdatum inte har bekräftats.</p>
-<p>Användaren kan redigera en aktivitet genom att klicka på de tre punkterna vid en aktivitet. Man ges då valmöjligheten att:</p>
+<p>Användaren kan redigera en aktivitet genom att klicka på de tre punkterna vid en aktivitet. Följande valmöjligheter ges:</p>
 <ul>
 <li>Öppna / redigera aktivitet</li>
 <li>Radera aktivitet</li>
@@ -1105,59 +1125,58 @@ Röd: Signifikant skillnad mellan självskattning och systemkalibrering</p>
 <figure>
 <p><img alt="Add competence development" src="../pictures/panel/lagg_till_utv.png" width="500" /></p>
 </figure>
-<p>För att lägga till kompetensutvecklingsaktivitet behövs :</p>
+<p>För att lägga till kompetensutvecklingsaktivitet behövs:</p>
 <ul>
 <li>Ämne</li>
 <li>Startdatum</li>
 <li>Slutdatum</li>
-<li>Aktivitet (rullgardinsmeny)</li>
+<li>Aktivitet som väljs från en lista</li>
 <li>Detaljer</li>
 </ul>
 <p>Och sen klicka på spara.</p>
 <h2 id="formagor">Förmågor</h2>
 <p><img alt="alt text" src="../pictures/panel/abilities.png" /></p>
-<p>I det här Spindel-diagrammet visas 14 kompetenser.
-Användare kan uppdatera eller ompröva sin egen bedömning var tredje månad genom att klicka på soptunnan i övre höger hörn. Om tre månader inte ha passerats, informeras MP med hjälp av en pop-up:varning om när de kommer att kunna göra bedömningen.
-För att växla från diagram till lista och tvärtom måste MP klicka på symbolen i nedre höger hörnet.</p>
+<p>I det här Spindel-diagrammet visas 14 förmågor.
+Användare kan göra om sin förmågeprofil var tredje månad genom att klicka på soptunnan i övre höger hörn. Om tre månader inte ha passerats, informeras MP med hjälp av en pop-up:varning om när de kommer att kunna göra bedömningen.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Tidintervallet är konfigurerbart av organisationen och har standardvärdet 3 månader.</p>
+</div>
+<p>För att växla från diagram till lista och tvärtom kan MP klicka på symbolen i nedre höger hörnet.</p>
 <p><img alt="alt text" src="../pictures/panel/abilities_list.png" /></p>
-<p>I listvyn kan mer information om förmågan visas genom att trycka på 'i' vid förmågans namn.</p>
+<p>I listvyn kan mer information om förmågan visas genom att trycka på 'i' vid förmågans namn. <!---Bild!---></p>
 <h2 id="the-lemon">The Lemon</h2>
-<p>I det här spindeldiagrammet finns de 5 förmågor från "The Lemon". För att växla från diagram till lista och tillbaks kan användaren trycka på iconen i nedre höger hörn
-<img alt="alt text" src="../pictures/panel/lemon.png" /></p>
-<p>I listvyn kan mer information om förmågan visas genom att trycka på 'i' vid förmågans namn.
-<img alt="alt text" src="../pictures/panel/lemon_list.png" /></p>
+<p>I det här spindeldiagrammet finns 5 områden från "The Lemon" som är kopplade till förmågor. För att växla från diagram till lista och tillbaks kan användaren trycka på ikonen i nedre höger hörn.</p>
+<p><img alt="alt text" src="../pictures/panel/lemon.png" /></p>
+<p>I listvyn kan mer information om området visas genom att trycka på 'i' vid områdets namn.</p>
+<p><img alt="alt text" src="../pictures/panel/lemon_list.png" /></p>
 <h2 id="noder-som-jag-tillhor">Noder som jag tillhör</h2>
 <p><img alt="alt text" src="../pictures/panel/noder.png" /></p>
-<p>I det här avsnittet visas alla noder på DCP:erna som MP är ansluten till. Genom att klicka på Utvärdera nod i rullgardinsmenyn kan MP se listan över DCP: er som är anslutna till noden och några detaljer om DCP.</p>
-<p>Genom att trycka på de tre punkterna vid en nod kan användaren öppna en vy av noden.</p>
+<p>I denna panel visas alla noder som MP är ansluten till. Genom att klicka på "Öppna" i rullgardinsmenyn öppnas en nod med tillhörande DCPer kopplade till noden.</p>
 <h2 id="kopplade-dcper">Kopplade DCPer</h2>
-<p>I denna sektion visas alla DCP:er som en MP är ansluten till. För varje DPC visas:</p>
-<ul>
-<li>DCP-arbetsbefattning</li>
-<li>MPP/DCP fit-gap</li>
-</ul>
-<p>Genom att klicka på Fit-Gap i rullgardinsmeny visas MPP/DCP fit-gap.
-<img alt="alt text" src="../pictures/panel/kopplade_DCPer.png" /></p>
+<p>I denna panel visas alla DCP:er som en MP är ansluten till. För varje DCP kan MP se namnet för DCPn, arbetets omfattning (i procent) samt Fit-Gap för kunskapsnivå (i procent). I rullgardingmenyn kan MP välja att se fullständig Fit-Gap.</p>
+<p><img alt="alt text" src="../pictures/panel/kopplade_DCPer.png" /></p>
 <h2 id="mottagna-dcper">Mottagna DCPer</h2>
+<!---Annan bild--->
 <p><img alt="alt text" src="../pictures/panel/mottagnaDCPer.png" /></p>
-<p>I den här sektionen kan användaren se alla mottagna DCP:er, i listan finns alla DCP:er som mottagits av användaren och som inte har anslutits till någon annan MP än. Medan du klickar på "Historiska data" kan användaren se alla DCP:er som mottagits tidigare.
-För varje DPC som finns i listan visas följande information:</p>
+<p>I denna panel kan användaren se alla mottagna DCP:er, i listan finns alla DCP:er som mottagits av användaren och som inte har anslutits till någon annan MP än. MP kan klick på "Historisk data" för att se alla DCP:er som mottagits tidigare.
+För varje DCP som finns i listan visas följande information:</p>
 <ul>
 <li>DCP-namn</li>
 <li>DCP-beskrivning</li>
 <li>Ledare som skickade</li>
-<li>DCP-datumet när DCP har skickats
-Genom att klicka på Fit-Gap i rullgardinsmeny kan MP se MPP/DCP-fit gap.</li>
+<li>Datumet när DCP har skickats</li>
 </ul>
+<p>Genom att klicka på Fit-Gap i rullgardinsmeny kan MP se sin egen Fit-Gap.</p>
 <h2 id="taggar">Taggar</h2>
-<p>I det här avsnittet visas MP:s taggar.
-Genom att klicka på Lägg till MP kan du lägga till ny tagg. I listan grupperas taggar efter funktionellt område och plats.
-Klicka på soptunnan för att ta bort en tagg</p>
+<p>I denna panel visas MP:s taggar.
+Genom att klicka på "Lägg till" kan MP lägga till ny tagg. I listan grupperas taggar efter kategorier.
+Genom att klicka på soptunnan tas en tagg bort.</p>
 <figure>
 <p><img alt="alt text" src="../pictures/panel/taggar.png" width="300" /></p>
 </figure>
 <h2 id="skriv-ut">Skriv ut</h2>
-<p>Användarpanelen kan exporteras till PDF- eller Word-format. Detta görs genom att markera pilen vid användarens namn och välja det önskade formatet.</p>
+<p>Informationen från användarpanelen kan exporteras till PDF eller Word. Formatet väljs i rullgardinsmenyn vid användarens namn.</p>
 <p><img alt="alt text" src="../pictures/panel/print.png" /></p>
 <hr />
 

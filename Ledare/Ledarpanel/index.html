@@ -207,7 +207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Mina_kompetensresena%CC%88rer/" class="md-nav__link">
+      <a href="../../Mina_kompetensresenarer/" class="md-nav__link">
         Mina kompetensresenärer
       </a>
     </li>
@@ -412,8 +412,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visa-organisationsstruktur" class="md-nav__link">
-    Visa organisationsstruktur
+  <a href="#visa-nodstruktur" class="md-nav__link">
+    Visa nodstruktur
   </a>
   
 </li>
@@ -438,8 +438,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mina-dcps" class="md-nav__link">
-    Mina DCPs
+  <a href="#mina-dcper" class="md-nav__link">
+    Mina DCPer
   </a>
   
 </li>
@@ -562,6 +562,8 @@
         
           
         
+          
+        
       
       
         
@@ -647,7 +649,7 @@
   
     <li class="md-nav__item">
       <a href="../../MP/Frageformular/" class="md-nav__link">
-        Frågeformulär
+        Förmågeprofil
       </a>
     </li>
   
@@ -724,6 +726,20 @@
 
             
           
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MP/lagga_till_kvalifikationer/" class="md-nav__link">
+        Lägg till och redigera kvalifikationer
+      </a>
+    </li>
+  
+
+            
+          
         </ul>
       </nav>
     </li>
@@ -772,7 +788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Statistik/Aggregerad_vy_fo%CC%88r_kunskap/" class="md-nav__link">
+      <a href="../../Statistik/Aggregerad_vy_for_kunskap/" class="md-nav__link">
         Aggregerad vy för kunskap
       </a>
     </li>
@@ -786,7 +802,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Statistik/Aggregerade_vy_fo%CC%88r_fo%CC%88rma%CC%8Agor/" class="md-nav__link">
+      <a href="../../Statistik/Aggregerade_vy_for_f%C3%B6rmagor/" class="md-nav__link">
         Aggregerade vy för förmågor
       </a>
     </li>
@@ -800,7 +816,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Statistik/Kunskapskartla%CC%88ggning/" class="md-nav__link">
+      <a href="../../Statistik/Kunskapskartlaggning/" class="md-nav__link">
         Kundskapskartläggning
       </a>
     </li>
@@ -849,8 +865,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#visa-organisationsstruktur" class="md-nav__link">
-    Visa organisationsstruktur
+  <a href="#visa-nodstruktur" class="md-nav__link">
+    Visa nodstruktur
   </a>
   
 </li>
@@ -875,8 +891,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mina-dcps" class="md-nav__link">
-    Mina DCPs
+  <a href="#mina-dcper" class="md-nav__link">
+    Mina DCPer
   </a>
   
 </li>
@@ -902,60 +918,62 @@
                 
 
 <h1 id="ledarpanel">Ledarpanel</h1>
-<p>När man loggar in som ledare för en nod eller DCP omdirigeras man till en ledarpanel. I ledarpanelen hittar man huvuddata som:</p>
+<p>När man loggar in som ledare för en nod eller DCP omdirigeras man till en ledarpanel. I ledarpanelen hittar man följande:</p>
 <ul>
 <li>Mina noder (endast om användaren är en ledare i minst en nod)</li>
 <li>DCP skickat</li>
-<li>DCP-sammanfattning</li>
+<li>Överblick av DCPer</li>
 <li>MPP sparad</li>
 </ul>
 <p><img alt="Leader panel" src="../pics/panel.png" /></p>
 <h2 id="mina-noder">Mina noder</h2>
-<p>Användaren kan under "Mina Noder" se alla noder för vilket användaren har utsetts till ledare.</p>
-<p>Varje nod har en status. En nodstatus kan vara utkast, aktiv eller stängd.</p>
+<p>En nod är en organisatorisk enhet, t.ex. avdelning, sektion, projekt, arbetsgrupp. Noder länkas i en struktur där en nod kan ha en eller flera undernoder, t.ex. en hierarkisk organisation. En nod kan vara permanent eller tidssatt, det vill säga, ha ett slutdatum.</p>
+<p>Användaren kan under "Mina Noder" se alla noder för vilket användaren är ledare för.</p>
+<p>Varje nod har en status. Nodens status kan vara utkast, aktiv eller stängd.</p>
 <p>När användaren vill stänga en nod är det nödvändigt att alla undernoder kopplat till noden stängs och alla MP:s kopplas ifrån noden.</p>
 <p>För att redigera en nod, tryck på de tre prickarna vid nodens namn och sedan på "redigera".</p>
 <p>För mer information om hur man redigerar en nod: <a class="md-button md-button--primary" href="../edit_node/">Klicka här</a></p>
 <p>För att öppna och få mer utförlig information om en nod så kan man trycka på "Öppna" istället för redigera. För mer information om noder: <a class="md-button md-button--primary" href="../node/">Klicka här</a></p>
-<h3 id="visa-organisationsstruktur"><strong><em>Visa organisationsstruktur</em></strong></h3>
-<p>Med den här funktionen kan användaren se den grafiska nodstrukturen från vald nod. Följande exempel visar konsultföretaget: HighValue med olika team och för Team Digital och Team Finance också deras kundteam. Den valda noden har en röd kant.</p>
+<h3 id="visa-nodstruktur">Visa nodstruktur</h3>
+<p>Med den här funktionen kan användaren se den grafiska nodstrukturen från vald nod. Följande exempel visar konsultföretaget HighValue med olika team och för Team Digital och Team Finance också deras kundteam. Den valda noden har en röd kant.</p>
 <p><img alt="Leader panel" src="../pics/strukt.png" /></p>
-<h3 id="skapa-nya-noder"><strong><em>Skapa nya noder</em></strong></h3>
+<h3 id="skapa-nya-noder">Skapa nya noder</h3>
 <!---Skall detta kanske ligga under redigera nod? eller egen--->
-<p>Genom att klicka på knappen "Lägg till" öppnas ett popup-fönster och ledaren kan skriva in all information som behövs för att definiera nästa nod, så som:</p>
+<p>Genom att klicka på knappen "Lägg till" öppnas ett popup-fönster och ledaren kan skriva in all information som behövs för att definiera nästa nod, såsom:</p>
 <ul>
-<li>Beskrivning av nod</li>
-<li>Föräldranod</li>
+<li>Beskrivning av noden</li>
+<li>Modernod</li>
 </ul>
-<p>Genom att klicka på knappen "Spara" skapas den nya noden och användaren omdirigeras till nodformuläret som innehåller nodens:</p>
+<p>Genom att klicka på knappen "Spara" skapas den nya noden och användaren omdirigeras till en ny sida som innehåller nodens:</p>
 <ul>
-<li>Noddata<ul>
+<li>Nodinformation<ul>
 <li>Namn</li>
-<li>Status (utkast, aktiv och stängd) </li>
+<li>Status (utkast, aktiv eller stängd)</li>
 <li>Tid</li>
-<li>Slutdatum (inaktiverat om tiden är permanent)</li>
-<li>Föräldranod</li>
+<li>Slutdatum (inte synlig om tiden är permanent)</li>
+<li>Modernod</li>
 <li>Ledare</li>
 </ul>
 </li>
-<li>Kulturdata</li>
-<li>Kompetensegenskaper</li>
+<li>Kompetensegenskaper för nodens kulturprofil</li>
+<li>Kompetensegenskaper för nodens generella kontext</li>
 </ul>
-<p>Kultur och egenskaper ärvs av föräldranoden.</p>
+<p>Kultur och generell kontext ärvs av modernod.</p>
 <h2 id="dcp-skickad">DCP skickad</h2>
-<p>I det här avsnittet listas de DCP:er som skickas ut av en ledare/distributör.
-Data är tillgängliga i den här listan tills en ny MP är ansluten till DCP.
-I rutnätet finns följande data:</p>
+<p>I denna panel listas de DCP:er som skickas ut av en ledare/distributör.
+Data är tillgängliga i den här listan tills en ny MP är ansluten till DCPn.
+I listan finns följande data:</p>
 <ul>
-<li>DCP-namn</li>
-<li>MP-namn och efternamn</li>
-<li>DCP-skickat datum</li>
-<li>Status kan accepteras (v), avvisas (x) eller tömmas. På musen över statusdatum visas.</li>
+<li>Namn på DCP</li>
+<li>Namn på kopplad MP</li>
+<li>Datum när DCPn är skickad</li>
+<li>Status</li>
 </ul>
-<p>I rutnätet grupperas MP efter DPC</p>
-<h2 id="mina-dcps">Mina DCPs</h2>
-<p>I avsnittet "Mina DCPs" finns ett cirkeldiagram som sammanfattar statusen där användaren är ledare eller distributör.
-Genom att klicka på knappen "Mina DCPs" kan användaren se listan över alla sina DCPs.</p>
+<!---Vad för status?--->
+
+<h2 id="mina-dcper">Mina DCPer</h2>
+<p>I panelen "Mina DCPer" finns ett cirkeldiagram som sammanfattar statusen där användaren är ledare eller distributör.
+Genom att klicka på knappen "Mina DCPer" kan användaren se listan över alla sina DCPer.</p>
 <p>För mer information om DCP-status: <a class="md-button md-button--primary" href="../DCP-status/">DCP-status</a></p>
 <h2 id="mpp-sparad">MPP sparad</h2>
 <!---Svårtolkad text--->
