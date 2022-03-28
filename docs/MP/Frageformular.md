@@ -4,7 +4,7 @@ För att skapa förmågeprofilen fyller MP i ett frågeformulär bestående av 5
 
 I frågeformuläret presenteras fem frågor per sida. För att gå vidare till nästa sida måste MP svara på alla de fem frågorna. När MP har gått till nästa sida är det inte möjligt att återgå till föregående. MP kan välja att fylla i formuläret över flera tillfällen, då visas första obesvarade frågan för tillfälle.
 
-![alt text](pictures/fragor/questions.png)
+![alt text](pictures/fragor/questions.jpg)
 
 Diagrammet uppdateras sedan för att visa andelen frågor som redan har besvarats.
 

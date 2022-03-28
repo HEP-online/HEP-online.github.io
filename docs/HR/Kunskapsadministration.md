@@ -1,6 +1,6 @@
 # Administration av kunskaper
 
-<!---Bild?--->
+![alt text](kunskapsadmin.png)
 
 Den här funktionen gör det möjligt för HR att se alla kunskap som finns för en organisation.
 I tabellen visas:

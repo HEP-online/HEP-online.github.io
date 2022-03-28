@@ -1,9 +1,9 @@
 # Fit Gap
 
-![alt text](pictures/fit-gap.png) 
+![alt text](pictures/fit-gap.png)
 <!--- Bild med skilda procent--->
 
-I MPP/DCP-fit gap kan MP se: Fit-gap av alla kärnkunskaper som krävs på DCP (70%) Fit-gap med tanke av endast de kunskaper som finns i MP-profilen bland de grundläggande kunskaper som krävs på DCP ( 88%) DCP-data:
+I MPP/DCP-fit gap kan MP se: Fit-gap av alla kärnkunskaper som krävs på DCP (75%) Fit-gap med tanke av endast de kunskaper som finns i MP-profilen bland de grundläggande kunskaper som krävs på DCP (94%) DCP-data:
 
 - Namn på DCP
 - Beskrivning av DCP

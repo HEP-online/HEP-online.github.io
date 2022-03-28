@@ -15,7 +15,7 @@ För att se en aggregerad vy av förmågor väljer användaren en nod. De är m�
 
 Genom att klicka på "Sök" visas en lista över de förmågor som finns baserat på de valda sökkriterierna.
 
-<!--bilder?-->
+![Vy efer sökning](pics/formager.png)
 
 Användaren kan också exportera den aggregerade vyn till PDF eller PowerPoint genom att klicka på en av knapparna högst upp på sidan brevid titeln.
 

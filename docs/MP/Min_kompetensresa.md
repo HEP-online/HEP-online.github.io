@@ -4,8 +4,6 @@
 ![alt text](pictures/resa/path.png){width=300}
 </figure>
 
-<!---Saknas bild--->
-
 I denna panel kan MP se historisk data i forma av flera diagram som visar förändring över tid för:
 
 - Kompetensförmågor
@@ -14,6 +12,6 @@ I denna panel kan MP se historisk data i forma av flera diagram som visar förä
 
 MP kan välja ett tidsintervall och/eller vilka kompetensförmågor/kunskaper som ska visas i diagrammen.
 
-<!--Är denna texten klar här?-->
+![Min kompetensresa](pictures/kompetensresa.png)
 
 ---------------------

@@ -22,7 +22,6 @@ En MPs användarpanel innehåller följande:
 
 ![user interface](pictures/userpanel.png){width=650}
 
-<!---Bild över hela användarpanelen om de går--->
 -------
 
 ## Användardata
@@ -40,7 +39,7 @@ Data som finns i detta avsnitt är:
 
 ![user data](pictures/panel/user.png)
 
---------
+-------
 
 ## Kunskaper
 
@@ -87,7 +86,6 @@ Kalibrering gör det möjligt för användaren att verifiera noggrannheten av si
 !!! info
     Självskattningen ändras inte automatiskt efter kalibrering, utan värdet från självskattningen står kvar.
 
-<!---Bilder?--->
 Skillnaden mellan kalibrering och självskattningen visas genom en färgad sträck brevid självskattningen.
 
 Följande gäller:
@@ -96,6 +94,8 @@ Följande gäller:
 - Grön: Kalibrering överensstämmer med självskattning.
 - Gul: Mindre avvikelse mellan självskattning och kalibrering.
 - Röd: Stor avvikelse mellan självskattning och kalibrering.
+
+![Colors and knowledge](pictures/panel/kunskap.png)
 
 ## Kompetensutvecklingsaktiviteter
 
@@ -146,7 +146,7 @@ För att växla från diagram till lista och tvärtom kan MP klicka på symbolen
 
 ![alt text](pictures/panel/abilities_list.png)
 
-I listvyn kan mer information om förmågan visas genom att trycka på 'i' vid förmågans namn. <!---Bild!--->
+I listvyn kan mer information om förmågan visas genom att trycka på 'i' vid förmågans namn. 
 
 ## The Lemon
 
@@ -173,7 +173,7 @@ I denna panel visas alla DCP:er som en MP är ansluten till. För varje DCP kan 
 ## Mottagna DCPer
 
 <!---Annan bild--->
-![alt text](pictures/panel/mottagnaDCPer.png)
+![alt text](pictures/panel/mottagnaDCPer.png){width=300}
 
 I denna panel kan användaren se alla mottagna DCP:er, i listan finns alla DCP:er som mottagits av användaren och som inte har anslutits till någon annan MP än. MP kan klick på "Historisk data" för att se alla DCP:er som mottagits tidigare.
 För varje DCP som finns i listan visas följande information:

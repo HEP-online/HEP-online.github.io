@@ -2,7 +2,9 @@
 
 Detta val finns endast tillgängligt om användaren är kompetensguide för någon och finns under väskan i menyn:
 
-<!---Bild--->
+![Hitta komptensresenärer](path_kompetensresenarer.png){width=300}
+
+-----------------------------------
 
 ![Mina kompetensresenärer](Mina_kompetensresenarer.png)
 

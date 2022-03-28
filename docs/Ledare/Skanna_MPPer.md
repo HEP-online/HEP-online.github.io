@@ -1,14 +1,16 @@
 # Skanna MPPer
 
-<!---Mindre bild--->
-
 Det finns två sätt att skanna efter MPPer för en specifik DCP:
 
-1. Genom att klicka på "Skanna MPPer" och sedan välja en önskad DCP visas formuläret på en ny flik.
-![alt text](pics/skanna.png)
+- Genom att klicka på "Skanna MPPer" och sedan välja en önskad DCP visas formuläret på en ny flik.
 
-2. Genom att i panelen DCP-status välja "Skanna MPPer" i rullgardinsmenyn för den valda DCPn.
-<!---bild--->
+<figure markdown>
+![alt text](pics/skanna.png){width=300}
+</figure>
+
+- Genom att i panelen DCP-status välja "Skanna MPPer" i rullgardinsmenyn för den valda DCPn.
+
+![alt text](pics/skanna2.png)
 
 När användaren har valt att skanna MPPer så omdiregeras den till denna sida.
 ![alt text](pics/fit.png)
@@ -39,9 +41,9 @@ Genom att klicka på knappen "Se fit-gap" öppnas fit-gap-vyn i en ny flik.
 
 --------------
 
-Genom att klicka på "Se fit-gap" öppnas en flik med den kompletta fit-gap analysen. 
+Genom att klicka på "Se fit-gap" öppnas en flik med den kompletta fit-gap analysen.
 
-<!---Bild--->
+![Fit Gap](pics/fit-gap.png)
 
 Här kan ledaren se:
 

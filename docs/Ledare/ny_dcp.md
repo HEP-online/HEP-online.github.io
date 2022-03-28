@@ -2,7 +2,7 @@
 
 För att se hur man skapar en ny DCP se [DCP status](DCP-status.md){ .md-button .md-button--primary}
 
-![alt text](pics/ny_dcp_whole.png)
+![alt text](pics/dcp_ny_whole.png)
 <!---Ny bild utan 0--->
 
 Efter att ha skapat en ny DCP öppnas en sida med informationen:

@@ -2,7 +2,7 @@
 
 När man loggar in som ledare för en nod eller DCP omdirigeras man till en ledarpanel. I ledarpanelen hittar man följande:
 
-- Mina noder (endast om användaren är en ledare i minst en nod)
+- Mina noder
 - DCP skickat
 - Överblick av DCPer
 - MPP sparad
@@ -75,6 +75,6 @@ För mer information om DCP-status: [DCP-status](DCP-status.md){ .md-button .md-
 ## MPP sparad
 <!---Svårtolkad text--->
 I det här avsnittet kan ledare/distributören se MPP som är sparade.
-Ledare kan spara en MPP i Scan MPPs genom att klicka på bokmärkesikonen nedan.
+Ledare kan spara en MPP i Scan MPPs genom att klicka på bokmärkesikonen.
 
 -------------------------------

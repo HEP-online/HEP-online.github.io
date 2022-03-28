@@ -2,15 +2,9 @@
 
 HEP erbjuder olika typer av support för användaren. Användarsupport hittas i menyn under boksymbolen:
 
-<!---Byta bild--->
-
 <figure markdown>
 ![Pathway to reach user support](pics/path.png)
 </figure>
-
-<!---
-Skall det kanske vara en beskrivande text här? kanske beskriva vart man hittar menyn
---->
 
 ## Videoguide
 
@@ -22,10 +16,8 @@ Skall det kanske vara en beskrivande text här? kanske beskriva vart man hittar 
 
 Om användaren önskar ytterligare hjälp utöver videoguides kan ett ärende öppnas för att kontakta **HEP**. Ett ärende öppnas genom att fylla i formuläret under "Kontakta Oss".
 Ett meddelande och ett e-postmeddelande informerar användaren om att ärendet har skapats.
-<!--- Skall något mer skrivas här för att utöka förklaringen av kategori och vad man skall beskriva? --->
 
 ![Contact](pics/contact.png)
-
 
 ## Ordlista med ordförklaringar
 
